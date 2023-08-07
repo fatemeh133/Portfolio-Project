@@ -7,6 +7,7 @@ font-family: 'Zeyada', cursive; */
   --default-font: "Poppins", sans-serif;
   --heading-font: "Playfair Display", serif;
 }
+
 body {
   font-family: var(--default-font);
 }
@@ -45,4 +46,44 @@ h2 {
 .btn-brand:hover {
   background-color: var(--btn-color);
   color: #212543;
+}
+.btn-project {
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-project:hover {
+  color: #212543;
+  border: 1px solid var(--btn-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.projct-title {
+  font-family: var(--heading-font);
+  font-size: 64px;
+}
+.project-detail {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+  }
+  .projct-title {
+    font-size: 50px;
+  }
+  body {
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
+    line-height: 2;
+  }
 }
