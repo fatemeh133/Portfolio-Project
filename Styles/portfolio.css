@@ -116,6 +116,36 @@ nav a:hover {
 .active a {
   color: var(--btn-color);
 }
+.footer {
+  font-size: 48px;
+}
+.footer-box {
+  background-color: var(--hero-background-color);
+  text-align: center;
+  border-radius: 10px;
+}
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer a:hover {
+  color: var(--btn-color);
+}
+.icons a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 20px;
+  color: var(--btn-color);
+  background-color: var(--hero-background-color);
+  height: 50px;
+  width: 50px;
+}
+.icons a:hover {
+  color: var(--hero-background-color);
+  background-color: var(--btn-color);
+}
+
 @media (max-width: 960px) {
   h1,
   .title-about {
